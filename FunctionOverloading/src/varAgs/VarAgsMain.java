@@ -1,0 +1,14 @@
+package varAgs;
+
+public class VarAgsMain {
+
+	public static void main(String[] args) {
+		VarAgs v=new VarAgs();
+		v.display(10);
+		v.display(2,2);
+		v.display(3,3,3);
+		v.display();
+
+	}
+
+}

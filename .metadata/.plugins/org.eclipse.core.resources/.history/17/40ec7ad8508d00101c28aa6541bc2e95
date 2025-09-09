@@ -1,0 +1,13 @@
+package BankInheritance;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		SavingAccount sobj=new SavingAccount(101, "Saving", 90000, "SBI23874692",4.9f);
+		CurrentAccount cobj=new CurrentAccount(102, "Current", 1000000, "ICICI49698", "hfj");
+	}
+	public void display(Account aobj) {
+		
+	}
+
+}

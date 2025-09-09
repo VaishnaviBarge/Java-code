@@ -1,0 +1,17 @@
+package inheritanceExample;
+
+public class B extends A {
+	int x=20;
+	
+	public B() {
+//		super(100);
+		System.out.println("it's the class B Default constructor");
+	}
+	
+	public void Show() {
+		super.Show();
+		System.out.println("the value of base class x is :"+ super.x);
+		System.out.println("the value of derived class x is :"+x);
+		
+	}
+}

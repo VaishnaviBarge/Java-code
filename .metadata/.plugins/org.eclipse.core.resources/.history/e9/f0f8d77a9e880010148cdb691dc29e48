@@ -1,0 +1,10 @@
+package varAgs;
+
+public class VarAgsMain {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

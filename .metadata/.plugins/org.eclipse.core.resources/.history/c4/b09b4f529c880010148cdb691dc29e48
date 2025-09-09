@@ -1,0 +1,7 @@
+package greater;
+
+public class greaterBetween {
+	public void greater(int a, int b) {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package overloading;
+
+public class Area {
+	public void Area(int r) {
+		float ca=3.14f*r*r;
+		Float cc=3.14f;
+		System.out.println("Area of Circle is :"+ ca);
+	}
+	
+	public void Area(int a,int b) {
+		int ra=a*b;
+		System.out.println("Area of Rectangle is :"+ ra);
+	}
+}

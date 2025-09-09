@@ -1,0 +1,35 @@
+package StaticDataMembers;
+import static java.lang.System.out;
+public class BankMain {
+
+	public static void main(String[] args) {
+		Bank b1=new Bank();
+		
+		b1.accNumber=1;
+		b1.ifsccode=4567;
+		
+		b1.show(); //1 100
+		
+		Bank b2=new Bank();
+		
+		b2.accNumber=2;
+		b2.ifsccode=1234;
+		
+		b2.show(); //2 1234
+		
+		b1.show();
+		/* after this i check the b1 again then the 
+		  accNo will be same as 1 but the ifsc code will be
+		  changed to the one we put for b2 because it's static variable
+		  static variables allocates the memory only once for a class
+		*/
+		
+		Bank.display();
+		/*  we can call static method using class name directly */
+		
+		
+		out.println("static data member we call directly without class name  just we need to import using keyword'static' ");
+		out.println("It's introduced to reduce the size of code");
+	}
+
+}

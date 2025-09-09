@@ -1,0 +1,9 @@
+package basciquestions;
+
+public class vovelsNconsonants {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

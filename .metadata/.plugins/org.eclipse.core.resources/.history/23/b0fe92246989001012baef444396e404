@@ -1,0 +1,10 @@
+package basciquestions;
+
+public class NormalString {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

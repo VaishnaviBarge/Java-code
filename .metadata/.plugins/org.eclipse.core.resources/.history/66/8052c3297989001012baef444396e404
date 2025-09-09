@@ -1,0 +1,10 @@
+package basciquestions;
+
+public class CheckAnagram {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

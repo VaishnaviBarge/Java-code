@@ -1,0 +1,9 @@
+package BankInheritance;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		SavingAccount sobj=new SavingAccount(101, "Saving", "90000", "SBI23874692", 0.2f);
+	}
+
+}
