@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="ArrayPackage.ArrayOperations"/>
     <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.ExifGPSTagSet"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
@@ -11,13 +10,11 @@
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="prifixSum.PrefixSumRange"/>
     <fullyQualifiedTypeName name="MathBasic.MathInfo"/>
@@ -37,6 +34,28 @@
     <fullyQualifiedTypeName name="varAgs.VarAgs"/>
     <fullyQualifiedTypeName name="StaticDataMembers.Bank"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="FamilyInheritance.Father"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="BankInheritance.Address"/>
+    <fullyQualifiedTypeName name="BankInheritance.SavingAccount"/>
+    <fullyQualifiedTypeName name="BankInheritance.CurrentAccount"/>
+    <fullyQualifiedTypeName name="BankInheritance.Customer"/>
+    <fullyQualifiedTypeName name="BankInheritance.Account"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="Array.ArrayBasics"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.awt.Shape"/>
+    <fullyQualifiedTypeName name="Shapes.triangle"/>
+    <fullyQualifiedTypeName name="Shapes.circle"/>
+    <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
+    <fullyQualifiedTypeName name="instrument.InstrumentMain"/>
+    <fullyQualifiedTypeName name="instrument.Instrument"/>
+    <fullyQualifiedTypeName name="instrument.gitar"/>
+    <fullyQualifiedTypeName name="instrument.Piyino"/>
+    <fullyQualifiedTypeName name="instrument.fluet"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="abstracts.Flyable"/>
+    <fullyQualifiedTypeName name="abstracts.Kite"/>
+    <fullyQualifiedTypeName name="abstracts.Helicopter"/>
 </qualifiedTypeNameHistroy>
