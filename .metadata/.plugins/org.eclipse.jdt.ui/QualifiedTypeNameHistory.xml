@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ArrayPackage.ArrayOperations"/>
-    <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.ExifGPSTagSet"/>
-    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.text.CollationElementIterator"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
@@ -12,7 +9,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -43,8 +39,6 @@
     <fullyQualifiedTypeName name="BankInheritance.Account"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="Array.ArrayBasics"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.awt.Shape"/>
     <fullyQualifiedTypeName name="Shapes.triangle"/>
     <fullyQualifiedTypeName name="Shapes.circle"/>
@@ -58,4 +52,12 @@
     <fullyQualifiedTypeName name="abstracts.Flyable"/>
     <fullyQualifiedTypeName name="abstracts.Kite"/>
     <fullyQualifiedTypeName name="abstracts.Helicopter"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="java.awt.DisplayMode"/>
+    <fullyQualifiedTypeName name="automobileInterface.Toyota"/>
+    <fullyQualifiedTypeName name="automobileInterface.AutoMobile"/>
+    <fullyQualifiedTypeName name="automobileInterface.HeroHonda"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
