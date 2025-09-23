@@ -8,7 +8,7 @@ public class BasicMathMain {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 //		System.out.println("Enter Your Choice :");
-		int n=3;
+		int n=30;
 		int m=40;
 		MathInfo mt=new MathInfo();
 		System.out.println("digits in number is :"+mt.CountDigit(n));

@@ -10,24 +10,39 @@ public class basicArray {
 		Scanner sc=new Scanner(System.in);
 		
 		int[] arr= {1,2,4,3,3,4,5};
-		//Find the maximum and minimum element in an array.
+		//1. Find the maximum and minimum element in an array.
 //		findMinMax(arr);
 		
-		//Reverse an array.
+		//2. Reverse an array.
 //		reverseArray(arr);
 		
-		//Search an element in an array (linear search).
+		//3. Search an element in an array (linear search).
 //		linearSearch(arr);
 		
-		//Find the second largest and second smallest element.
+		//4. Find the second largest and second smallest element.
 //		secondMin(arr);
 //		SecondLagest(arr);
 		
-		//Check if an array is sorted.
+		//5. Check if an array is sorted.
 //		isSorted(arr);
 		
-		//Find duplicates in an array.
-		findDublicate(arr);
+		//6 .Find duplicates in an array.
+//		findDublicate(arr);
+		
+		//7. Rotation of array by k
+//		RotationByK(arr);
+		
+		//8. missingNumber in array having elements  1 to n 
+//		FindMissingNo();
+		
+		//9. multiple missing number
+//		MultipleMissingNo();
+		
+		//10. merge two array
+//		MergeTwoArray();
+		
+		//11. merge two sorted array
+		MergeSortedArray();
 	}
 	
 	public static void findMinMax(int[] arr) {
@@ -147,4 +162,96 @@ public class basicArray {
 		
 	}
 	
+	public static void RotationByK(int[] arr) {
+		int k=6;
+		int n=arr.length;
+		k=k%n;
+		
+		int[] temp=new int[k];
+		for(int i=0;i<k;i++) {
+			temp[i]=arr[i];
+		}
+		for(int i=k;i<n;i++) {
+			arr[i-k]=arr[i];
+		}
+		for(int i=n-k;i<n;i++) {
+			arr[i]=temp[i-(n-k)];
+		}
+		System.out.println("temp Array :"+ Arrays.toString(arr));
+		
+	}
+	
+	public static void FindMissingNo() {
+		int[] arr= {1,3,4,5};
+		int n=arr.length+1;
+		int totalSum=n*(n+1)/2;
+		int sumArray=0;
+		for(int i=0;i<arr.length;i++) {
+			sumArray+=arr[i];
+		}
+		int missingVal=totalSum-sumArray;
+		System.out.println("the missing numbe rin array is :"+ missingVal);
+	}
+	
+	public static void MultipleMissingNo() {
+		int[] arr= {1,2,3,5,7,8};
+		int n=8;
+		HashSet<Integer> set=new HashSet<Integer>();
+		for(int i=0;i<arr.length;i++) {
+			set.add(arr[i]);
+		}
+		for(int i=1;i<=n;i++) {
+			if(!set.contains(i)) {
+				System.out.println(i+" ");
+			}
+		}
+	}
+	
+	public static void MergeTwoArray() {
+		int[] arr1= {1,3,5,6};
+		int[] arr2= {2,4,7};
+		int k=arr1.length;
+		int l=arr2.length;
+		int n=arr1.length+arr2.length;
+		
+		int[] arr=new int[n];
+		
+		for(int i=0;i<k;i++) {
+			arr[i]=arr1[i];
+		}
+		System.out.println("Array is :"+Arrays.toString(arr));
+		int j=0;
+		for(int i=k;i<n;i++) {
+			arr[i]=arr2[j++];
+		}
+		System.out.println("Array is :"+Arrays.toString(arr));
+	}
+	
+	public static void MergeSortedArray(){
+		int[] arr1= {0,1,3,5,6,8};
+		int[] arr2= {2,4,7,9};
+		int m=arr1.length;
+		int l=arr2.length;
+		int n=arr1.length+arr2.length;
+		
+		int[] arr=new int[n];
+		
+		int i=0,j=0,k=0;
+		while(i<arr1.length && j<arr2.length) {
+			if(arr1[i]<arr2[j]) {
+				arr[k++]=arr1[i++];
+			}
+			else {
+				arr[k++]=arr2[j++];
+			}
+		}
+		System.out.println("Array is :"+Arrays.toString(arr));
+		while(i<arr1.length) {
+			arr[k++]=arr1[i++];
+		}
+		while(j<arr2.length) {
+			arr[k++]=arr2[j++];
+		}
+		System.out.println("Array is :"+Arrays.toString(arr));
+	}
 }

@@ -115,7 +115,7 @@ public class MathInfo {
 	public int GCDLCF(int m,int n) {
 		int k=Math.min(n,m);
 		int a;
-		for(int i=k;i>=1;i++) {
+		for(int i=k;i<=1;i++) {
 			if(m%i==0&&n%i==0) {
 				return i;
 			}
