@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+  width: 100%;
+  padding:0 100px 0 100px;
+  max-width: 100%;
+  margin: 30px auto;
+  
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+	
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  
+}
+
+nav a img {
+  width: 200px;
+ 
+}
+
+nav ul {
+  display: flex;
+  align-items: center; /* This centers the list items vertically */
+}
+
+nav li {
+  list-style: none;
+  margin: 0 25px;
+}
+
+nav ul li a {
+  color: #298AC2;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.logout-btn{
+	
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-top: 70px;
+   
+}
+
+.hero section {
+  flex: 1;
+}
+
+.hero-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #070439;
+}
+
+.hero-left p {
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  color: #444444;
+}
+
+.hero-left {
+  padding-right: 40px;
+}
+
+.hero-left a {
+  padding: 10px 15px;
+  background: #749B29;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s all ease;
+}
+
+.hero-left a:hover {
+  background-color: #070439;
+}
+
+.right {
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+  padding-top: 50px; 
+}
+
+.right img {
+  width: 100%;
+  max-width: 465px;
+}
+
+@media screen and (max-width: 1000px) {
+  nav img {
+    width: 100px;
+  }
+
+  nav li {
+    list-style: none;
+    margin: 0 8px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero .right {
+    order: -1;
+    padding-bottom: 5rem;
+  }
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: -50px;
+  margin-bottom: 200px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  height: 300px; /* Fixed height */
+  color: #298AC2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #666;
+}
+
+.card a {
+  background-color: #749B29;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.add-btn{
+	background-color: #ffffff;
+  color: #298AC2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #392a8c;
+}
+
+
+/* Account Card Specific Styles */
+.account-card {
+  background-color: #eae9f9;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding: 20px;
+  width: 250px;
+  height: 300px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.account-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.account-card p {
+	width: 100%;
+	display: flex;
+	align-items: center;
+  font-size: 16px;
+  margin: 5px 0;
+  
+}
+
+.account-card button {
+  background-color: #ffffff;
+  color: #298AC2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.account-card button:hover {
+  background-color: #ccccff;
+}
+
+
+
+.update-Bal-Btn{
+	font-size: 25px;
+	padding: 10px;
+	color: red;
+}

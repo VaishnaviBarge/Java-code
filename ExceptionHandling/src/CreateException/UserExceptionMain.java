@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class UserExceptionMain {
 
+<<<<<<< HEAD
 	public static void display(String name,int age,float percentage) throws InvalidAgeException, InvalidPercentageException, Exception
 		{
 			try {
@@ -25,12 +26,15 @@ public class UserExceptionMain {
 			}
 	}
 	
+=======
+>>>>>>> 41fa5ee101fe9e698e048f7c865120026c60ca9f
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your name :");
 		String name=sc.next();
 		System.out.println("Enter your Age :");
 		int age=sc.nextInt();
+<<<<<<< HEAD
 		System.out.println("Enter your Percentage :");
 		float percentage=sc.nextFloat();
 		try {
@@ -45,5 +49,17 @@ public class UserExceptionMain {
 		System.out.println("thankyou..");
 	}
 	
+=======
+		try {
+			if(age<18) {
+				throw new InvalidAgeException();
+			}
+		}
+		catch(InvalidAgeException ex) {
+			System.out.println("Exception is "+ ex);
+		}
+		System.out.println("Thank you");
+	}
+>>>>>>> 41fa5ee101fe9e698e048f7c865120026c60ca9f
 
 }

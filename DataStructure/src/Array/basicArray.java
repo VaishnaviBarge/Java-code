@@ -21,7 +21,11 @@ public class basicArray {
 		
 		//4. Find the second largest and second smallest element.
 //		secondMin(arr);
+<<<<<<< HEAD
 		SecondLagest(arr);
+=======
+//		SecondLagest(arr);
+>>>>>>> 41fa5ee101fe9e698e048f7c865120026c60ca9f
 		
 		//5. Check if an array is sorted.
 //		isSorted(arr);

@@ -8,6 +8,7 @@ public class BasicMathMain {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 //		System.out.println("Enter Your Choice :");
+<<<<<<< HEAD
 		int n=9474;
 		int m=40;
 		MathInfo mt=new MathInfo();
@@ -20,6 +21,20 @@ public class BasicMathMain {
 //		System.out.println("Is number is Prime  :"+mt.IsPrime(n));
 //		System.out.println("Is number is Prime in more optimized way:"+mt.IsPrime2(n));
 //		System.out.println("The GCD ad LCF is : "+mt.GCDLCF(n, m));
+=======
+		int n=30;
+		int m=40;
+		MathInfo mt=new MathInfo();
+		System.out.println("digits in number is :"+mt.CountDigit(n));
+		System.out.println("Reverse of degit is :"+mt.ReverseDigit(n));
+		System.out.println("is number Palindrom :"+mt.checkIfPalintrom(n));
+		System.out.println("is Number Armstrong :"+mt.Armstrong(n));
+		System.out.println("All division of n is:"+mt.AllDivisionNumber(n));
+		System.out.println("All division of n in more optimized way:"+mt.AllDivisionNumber2(n));
+		System.out.println("Is number is Prime  :"+mt.IsPrime(n));
+		System.out.println("Is number is Prime in more optimized way:"+mt.IsPrime2(n));
+		System.out.println("The GCD ad LCF is : "+mt.GCDLCF(n, m));
+>>>>>>> 41fa5ee101fe9e698e048f7c865120026c60ca9f
 	}
 
 }

@@ -4,7 +4,11 @@ public class B extends A {
 	int x=20;
 	
 	public B() {
+<<<<<<< HEAD
 		super(1);
+=======
+		super(100);
+>>>>>>> 41fa5ee101fe9e698e048f7c865120026c60ca9f
 		System.out.println("it's the class B Default constructor");
 	}
 	

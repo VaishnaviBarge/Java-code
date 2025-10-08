@@ -43,6 +43,7 @@ public class MathInfo {
 	}
 	
 	public boolean Armstrong(int n) {
+<<<<<<< HEAD
     int sum = 0;
     int temp = n;
     int lastDig;
@@ -67,6 +68,24 @@ public class MathInfo {
     return sum == temp;
 }
 
+=======
+		int sum=0;
+		int temp=n;
+		int lastDig;
+		while(n>0) {
+			lastDig=n%10;
+			n=n/10;
+			sum+=lastDig*lastDig*lastDig;
+		}
+		if(sum==temp) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+>>>>>>> 41fa5ee101fe9e698e048f7c865120026c60ca9f
 	public ArrayList<Integer> AllDivisionNumber(int n) {
 //		int[] nums=new int[n]; 
 		ArrayList<Integer> nums=new ArrayList<Integer>();
