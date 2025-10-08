@@ -1,0 +1,26 @@
+package ArrayPackage;
+
+import java.util.Scanner;
+
+public class LinearSearch {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int arr[]= {1,4,2,5,7,8};
+		int key=sc.nextInt();
+		boolean found=false;
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]==key) {
+				System.out.println("KEy found at index "+ i);
+				found=true;
+				break;
+			}
+		}
+		if(!found) {
+			System.out.println("Element "+key+" not found");
+			sc.close();
+		}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package basciquestions;
+
+public class NormalString {
+
+	public static void main(String[] args) {
+		
+		//case 1: here java stores the memory in the special area of memory called the string pool
+		//		  if later any another variable says hello then java won't create a new object it
+		//		  will just point to the same one in the pool.
+		String s="hello";
+		String u="hello";
+		System.out.println(s==u);
+		
+		
+		//case 2: this is explicit constructor way. java will create a new object in the heap, even if 
+		//		  it already exist in the pool.
+		String s1=new String("hello");
+		String s2=new String("hello");
+		System.out.println(s1==s2);
+		
+		System.out.println(s==s1);
+	}
+
+}
